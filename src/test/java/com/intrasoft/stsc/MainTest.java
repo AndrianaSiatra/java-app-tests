@@ -51,6 +51,6 @@ public class MainTest {
     @Test
     public void countAverageError(){
 
-        Assert.assertTrue(getAverage("5","13")==20);
+        Assert.assertFalse(getAverage("5","13")==20);
     }
 }
